@@ -52,7 +52,6 @@ void loop() {
         lcd.print("*");
         enteredpwd[count] = key;
         count++;
-        Serial.print("out of loop");
       }
       else
       {
